@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page 2</title>
+	<script type="text/javascript" src="ass.js"></script>
+
+</head>
+<body  >
+	<link rel="stylesheet" type="text/css" href="assignment2.css">
+	<div class="nav">
+		<ul>
+			<li><a href="index.html" title="Home Page" class="Menu">Home Page</a></li>
+		<li><a href="assignment2.html" title="Form Page" class="Menu">Form Page</a></li>
+		<li><a href="submit.html" title="Submit Page" class="Menu">Submission verified page</a></li>
+		</ul>
+	</div>
+
+
+	<h1>THE FORM</h1>
+
+
+	<form class="my-form">
+		<script type="text/javascript" src="ass.Joseph">	</script>
+		<div class="form-group">
+			<label><h2>First Name</h2></label>
+			<input type="text" id="FirstName"
+			placeholder="First Name" onblur="upperCase('FirstName')">
+<!-- <script type="text/javascript">
+function upperCase(id) { 
+    var x=document.getElementById(id).value;
+    document.getElementById(id).value=x.toUpperCase();
+      }      
+  </script>  -->
+		</div>
+		
+		<div>
+			<label><h2>Second Name</h2></label>
+			<input type="text" Id="SecondName"
+			placeholder="Second Name"  onblur="upperCase('SecondName')">
+
+		</div>
+		
+		<div>
+			<label><h2>Last Name</h2></label>
+			<input type="text" Id="LastName"
+			placeholder="Last Name" onblur="upperCase('LastName')">
+		</div>
+		
+		<div>
+			<label><h2>Email</h2></label>
+			<input type="Email" Id="Email"
+			placeholder="Email" onblur="lowerCase('Email')">
+		</div>
+		
+		<div>
+			<label><h2>Phone Number</h2></label>
+			<input type="Number" name="Phone Number" placeholder="Phone Number">
+		</div>
+		
+		<div>
+			<label><h2>Message</h2></label>
+			<textarea name="Message" id="Message" 
+			placeholder="Message"  onblur="upperCase('Message')"></textarea>
+		</div>
+		
+
+			<h2>Gender</h2>
+			<article class="radio">
+			<label><h3>Male</h3></label>
+			<input type="radio" name="Gender">
+			<br>
+			<label><h3>Female</h3></label>
+			<input type="radio" name="Gender">
+			<br>
+			<label><h3>Other</h3></label>
+			<input type="radio" name="Gender">
+			</article>
+		</div>
+		
+		<div>
+			<label><h2>Age</h2></label>
+						<input type="Number" name="Age"
+						value="30"
+						placeholder="Age">
+		</div>
+		
+		<div>
+			<label><h2>Birthday</h2></label>
+			<input type="date" name="Birthday">
+		</div>
+		<h2>Rating(How could you rate Joseph Mbote)(General Rating)</h2>
+			<article class="radio">
+			<label><p>10</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>9</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>8</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>7</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>6</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>5</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>4</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>3</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>2</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>1</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><p>0</p></label>
+			<input type="radio" name="Rating">
+			<br>
+			<label><h2>Comment</h2></label>
+			<textarea name="comment" 
+			placeholder="comment"></textarea>
+			<br>
+	</form>
+
+<h2>Rating as per specific field</h2>
+<h3>Instruction.</h3>
+<p>Rate Joseph Mbote as per your rating scale from 0-5 in the various fields. The ratings are private and confidential</p>
+	<ul>
+		<li>5- Excellent(Outstanding).</li>
+		<li>4- Very Good.</li>
+		<li>3- Good.</li>
+		<li>2- Average.</li>
+		<li>1- Below Average.</li>
+	</ul>
+	<h3>Rating parameters.</h3>
+	<form>
+		Communication skills:<input type="number" id="rating1"><br><br>
+		Professionallism:<input type="number" id="rating2"><br><br>
+		Qualifications:<input type="number" id="rating3"><br><br>
+		Expert production:<input type="number" id="rating4"><br><br>
+		General rating:<input type="number" id="rating5"><br><br>
+		<h3>(Click to Calculate percentage rating)</h1><input type="button" onclick="calc()" value="Get Rate">
+		<input type="number" id="rating"><br><br>
+	</form>
+	<!-- Button -->
+<!-- 	<script type="text/javascript" src="ass.js"></script> <button>Submit</button>
+ -->
+ 		<button onclick="uppercase()" >Check Details</a></button>
+ 		<!-- <button onclick="alert('Posted successfully')" >Submit</button> -->
+ 		<button ><a href="submit.html">Submit</a></button>
+
+
+	<br>
+	<br>
+	<table>
+		<thead>
+			<table border="1">
+			<tr>
+			<th>Name     </th>
+			<th>Email     </th>
+			<th>Phone No.   </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>joseph mbote    </td>
+				<td>mbote125@gmail.com     </td>
+				<td>22    </td>
+			</tr>
+			<tr>
+				<td>Peter Macharia</td>
+				<td>pmacharia@gmail.com</td>
+				<td>28</td>
+			</tr>
+			<tr>
+				<td>Moses Kamau</td>
+				<td>moseKamau00@gmail.com</td>
+				<td>16</td>
+			</tr>
+			<tr>
+				<td>Joseph Kang'ethe</td>
+				<td>kang'ethejose@gmail.com</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>John Mwangi</td>
+				<td>j.mwangi@gmail.com</td>
+				<td>3</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	<br>
+	
+	<button><a href="index.html">Previous page..</a></button>
+
+<br><br>
+<footer class="footer">
+    <div class="copyright">&copy;2019 - <strong>Joseph Mbote</strong> mbotejoseph125@gmail.com 0792622515</div>
+  </footer>
+
+</body>
+</html>

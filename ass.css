@@ -1,0 +1,47 @@
+h1{
+	color:red;
+}
+
+
+body{
+	background-color:greenyellow;
+	height: 2000px;
+	
+		}
+@media screen and (max-width: 800px){
+	body{
+		background-color: lightblue;
+	}
+}
+@media screen and (max-height: 600px){
+	body{
+		background-color: lightgreen;
+	}
+}
+}
+
+h1{
+	align-content: center;
+	font:78px;
+}
+h2{
+	color:blue;
+}
+h3{
+	color:purple;
+}
+.columns{
+
+	width:90%;
+	margin-top: 50px;
+	column-count: 3;
+	column-rule-style: dotted;
+}
+h4{
+	color:(h1);
+}
+.copyright{
+	text-align: center;
+	margin-top:100px;
+}
+

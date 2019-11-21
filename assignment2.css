@@ -1,0 +1,93 @@
+/*.myform{
+	padding: 5px;
+}*/
+/*.my-form.form-group{
+	padding-bottom: 5px;
+}*/
+.my-form label{
+	display:inline-block;
+}
+.my-form input[type="text"],.my-form textarea{
+padding: 9px;
+width: 200px;
+}
+
+h1{
+	color:red;
+	font:30px;
+}
+body{
+	background-color:greenyellow;
+	height: 2000px;
+	text-align: left;
+	margin-left: 50px;
+	
+		}
+
+
+h1{
+	align-content: center;
+	font:78px;
+}
+h2{
+	color:blue;
+}
+h3{
+	color:purple;
+}
+.columns{
+
+	width:90%;
+	margin-top: 50px;
+	column-count: 3;
+	column-rule-style: dotted;
+}
+h4{
+	color:(h1);
+}
+.copyright{
+	text-align: center;
+	margin-top:100px;
+}
+h1{
+	color:red;
+	font:30px;
+}
+body{
+	background-color:greenyellow;
+	height: 2000px;
+
+	
+		}
+@media screen and (max-width: 800px){
+	body{
+		background-color: lightblue;
+	}
+}
+@media screen and (max-height: 600px){
+	body{
+		background-color: lightgreen;
+	}
+}
+}
+h1{
+	align-content: center;
+	font:78px;
+}
+h2{
+	color:blue;
+}
+h3{
+	color:purple;
+}
+
+h4{
+	color:(h1);
+}
+.copyright{
+	text-align: center;
+	margin-top:100px;
+}
+.radio{
+	margin-left: 100px;
+}
